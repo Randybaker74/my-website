@@ -9,9 +9,13 @@
     format list 
     format footer */
 
+    html {
+        background-color: #ff3334;
+    }
+
     /* body styles*/
         body {
-            background-color: #87eccb;
+            background-color: #0c96e4;
             font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
         }
 
@@ -44,7 +48,7 @@
         }
 
     /* Navigation Styles */
-        nav {
+        nav a {
             font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
             padding-top: 10px;
             padding-bottom: 10px;
