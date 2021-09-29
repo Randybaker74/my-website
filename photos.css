@@ -1,0 +1,26 @@
+
+/* photos Layout Styles */
+
+ul#photos {
+    width: 75%;
+    margin: 100px;
+}
+
+ul#photos li {
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+ul#photos li img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    float: left;
+}
+
+ul#photos li p {
+    float: left;
+    width: 50%;
+}
