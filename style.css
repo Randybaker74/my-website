@@ -91,7 +91,7 @@
         /* Set Background image */
 
         .hobbies {
-            background: url("racingbackground.jpg") no-repeat center center fixed;
+            background: url('racingbackground.jpg') no-repeat center center fixed;
             background-size: cover;
         }
 
