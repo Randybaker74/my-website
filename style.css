@@ -1,0 +1,121 @@
+@charset "utf-8";
+    /*
+    Personal Web Page
+    Author: Randy Baker
+    Date: 09-01-2021
+    File Name: style.css
+    
+    */
+
+    html {
+        background-color: rgb(216, 44, 44);
+    }
+
+    /* body styles*/
+        body {
+            background-color: #87ceeb;
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            
+        }
+
+    /* paragraph styles */    
+        p {
+            font-size: 1.1em;
+            text-align: center;
+        }
+
+    /* header styels */
+        header{
+            background-color: #87ceeb;
+        } 
+        
+        h1 {
+            color: darkblue;
+        }
+        
+        h1, h3 {
+            text-align: center;
+        }
+        img {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+        }
+        ul,ol {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+
+    /* Navigation Styles */
+        nav a {
+            font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            
+        }    
+
+        nav a:link, nav a:visited {
+            color: white;
+            background-color: #6b6b6b;
+            text-decoration: none;
+            
+        } 
+        
+        nav a:hover, nav a:active {
+            color: pink;
+            background-color: #6b6b6b;
+        }
+
+        /* Banner image Styles */
+        header > img {
+            display: block;
+            width: 100%;
+            height: 200px;
+            border-radius: 0%;
+        }
+
+        p {
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: left;
+        }
+
+        li {
+            color: white;
+        }
+
+        /* Set Background image */
+
+        .hobbies {
+            background: url("racingbackground.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .courses {
+            background-image: url('cybersecurity.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        /* Footer color */
+
+        #myFooter {
+            color: white;
+        }
+
+    /* footer styles */    
+        footer {
+            text-align: center;
+            font-style: normal;
+            font-size: 0.9em;
+        }
+/*
+        <center>
+        <a href="https://www.youtube.com/watch?v=CvoAZzmj08o" target="_blank"> This is a small video of the SIM I enjoy</a>
+        </center>
+*/
