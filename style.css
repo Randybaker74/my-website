@@ -1,84 +1,66 @@
-@charset "utf-8";
-    /*
-    Personal Web Page
-    Author: Randy Baker
-    Date: 09-01-2021
-    File Name: style.css
-    format h1, h3, 
-    format image 
-    format list 
-    format footer */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal webpage</title>
 
-    html {
-        background-color: rgb(216, 44, 44);
-    }
+    <link href="style.css" rel="stylesheet"  />
+    <link href="layout.css" rel="stylesheet" />
+    <link href="bodybackground.css" rel="stylesheet" />
 
-    /* body styles*/
-        body {
-            background-color: #87ceeb;
-            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-        }
+<!-- Supporting files
+    index.html
+    courses.html
+    hobbies.html
+    style.css
+    layout.css
+    booksBanner.png
 
-    /* paragraph styles */    
-        p {
-            font-size: 1.1em;
-            text-align: center;
-        }
+-->
+    
 
-    /* header styels */
-        header{
-            background-color: #87ceeb;
-        } 
+</head>
+<body class="courses">
+
+    <!-- Add Header (menu + Loge) -->
+    <header>
+        <img src="booksBanner.png" alt="books" />
+    
         
-        h1 {
-            color: darkgreen;
-        }
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="courses.html">Courses I'm taking</a></li>
+                <li><a href="hobbies.html">My Hobbies</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+                <li><a href="Music.html">Music</a></li>
+            </ul>
+        </nav>
         
-        h1, h3 {
-            text-align: center;
-        }
-        img {
-            display:block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 50%;
-        }
-        ul,ol {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            text-align: center;
-        }
+    </header>
+    <br><br><br><br><br><br><br><br><br>
+    
+    
+    
 
-    /* Navigation Styles */
-        nav a {
-            font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }    
+    <p>I am currently enrolled at St. Louis Community college. I started college in the fall of 2019. I am only taking 2 classes at a time while i still work
+        and take care of my family. I am taking courses to earn a degree in Cyber Security. The courses I have taken already taken are Earth Science, Mathematical
+        Literacy, Wellness/Fitness Concepts, Java Programming, Unix & Linux and currently taking United States History to 1865 and Web Publishing.
 
-        nav a:link, nav a:visited {
-            color: white;
-            background-color: #6b6b6b;
-            text-decoration: none;
-        } 
-        
-        nav a:hover, nav a:active {
-            color: pink;
-            background-color: #6b6b6b;
-        }
+    </p>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    
+    
 
-        /* Banner image Styles */
-        header > img {
-            display: block;
-            width: 100%;
-            height: 200px;
-            border-radius: 0%;
-        }
+     </body>
+    <footer id="myFooter">Randy Baker
+        email:
+         <a href="mailto:rbaker207@my.stlcc.edu">rbaker207@my.stlcc.edu</a>
+    </footer>
 
-    /* footer styles */    
-        footer {
-            text-align: center;
-            font-style: normal;
-            font-size: 0.9em;
-        }
+    
+</html>
